@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Target domain
+#read -p "Please enter the test name : " tname
 read -p "Please enter a domain name w/o http/https : " domain
+
 
 # Output file names
 SUBFINDER_OUTPUT="subfinder.txt"
@@ -21,3 +23,5 @@ sudo assetfinder -subs-only "$domain" > "$ASSETFINDER_OUTPUT"
 sort -u subfinder.txt amass.txt assetfinder.txt > sorted.txt
 
 shuffledns -d $domain -list sorted.txt -r /home/AMBERJACK/kajde13lkd/dnsvalidator/resolvers.txt -o resolved.txt
+
+httpx -l resolved.txt -o withttp.txt
