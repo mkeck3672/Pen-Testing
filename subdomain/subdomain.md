@@ -13,12 +13,13 @@ Google Dorks & bing
 
 #### Tools I use
 See the git repo for full list of flags.
+#### Run subfinder and write output to file
 ``` sudo subfinder -d domain.com --all -o subfinder.txt ```
 
-# Run amass and write output to file
+#### Run amass and write output to file
 ``` sudo amass enum -passive -d domain.com > amass.txt ```
 
-# Run assetfinder and write output to file
+#### Run assetfinder and write output to file
 ``` sudo assetfinder -subs-only "$domain" > assetfinder.txt ```
 
 #### Brute force
