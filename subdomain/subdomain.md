@@ -27,7 +27,7 @@ FFUF
 ``` ffuf -w subdomains.txt -u http://website.com/ -H “Host: FUZZ.website.com” ```
 
 #### Online searching
-https://pentest-tools.com/information-gathering/find-subdomains-of-domain\
+https://pentest-tools.com/information-gathering/find-subdomains-of-domain<br />
 https://subdomains.whoisxmlapi.com/?mc=geekflare\
 https://dnsdumpster.com/\
 https://crt.sh\
