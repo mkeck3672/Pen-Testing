@@ -27,10 +27,10 @@ FFUF
 ``` ffuf -w subdomains.txt -u http://website.com/ -H “Host: FUZZ.website.com” ```
 
 #### Online searching
-https://pentest-tools.com/information-gathering/find-subdomains-of-domain
-https://subdomains.whoisxmlapi.com/?mc=geekflare
-https://dnsdumpster.com/
-https://crt.sh
+https://pentest-tools.com/information-gathering/find-subdomains-of-domain\
+https://subdomains.whoisxmlapi.com/?mc=geekflare\
+https://dnsdumpster.com/\
+https://crt.sh\
 
 ### Resources
 Subfinder ``` sudo apt install subfinder ``` https://github.com/projectdiscovery/subfinder 
