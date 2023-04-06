@@ -28,15 +28,15 @@ FFUF
 
 #### Online searching
 https://pentest-tools.com/information-gathering/find-subdomains-of-domain<br />
-https://subdomains.whoisxmlapi.com/?mc=geekflare\
-https://dnsdumpster.com/\
-https://crt.sh\
+https://subdomains.whoisxmlapi.com/?mc=geekflare<br />
+https://dnsdumpster.com<br />
+https://crt.sh
 
 ### Resources
-Subfinder ``` sudo apt install subfinder ``` https://github.com/projectdiscovery/subfinder 
-Amass ``` sudo apt install amass ``` https://github.com/owasp-amass/amass
-Assetfinder ```sudo apt install assetfinder ``` https://github.com/tomnomnom/assetfinder
-FFUF ``` sudo apt install ffuf ``` https://github.com/ffuf/ffuf
+Subfinder ``` sudo apt install subfinder ``` https://github.com/projectdiscovery/subfinder<br />
+Amass ``` sudo apt install amass ``` https://github.com/owasp-amass/amass<br />
+Assetfinder ```sudo apt install assetfinder ``` https://github.com/tomnomnom/assetfinder<br />
+FFUF ``` sudo apt install ffuf ``` https://github.com/ffuf/ffuf<br />
 
 ### References
 1. https://en.wikipedia.org/wiki/Subdomain
