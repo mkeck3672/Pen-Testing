@@ -22,6 +22,6 @@ sudo assetfinder -subs-only "$domain" > "$ASSETFINDER_OUTPUT"
 # Sorts the three files and removes duplicates
 sort -u subfinder.txt amass.txt assetfinder.txt > sorted.txt
 
-shuffledns -d $domain -list sorted.txt -r /home/AMBERJACK/kajde13lkd/dnsvalidator/resolvers.txt -o resolved.txt
+shuffledns -d $domain -list sorted.txt -r /home/AMBERJACK/(stuff)/dnsvalidator/resolvers.txt -o resolved.txt
 
 httpx -l resolved.txt -o withttp.txt
